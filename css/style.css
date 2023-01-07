@@ -1,0 +1,90 @@
+body {
+    background-color: black;
+    color: #FFF;
+    font-family: "Press Start 2P";
+}
+
+.title {
+    margin-top: 4%;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.hangman-block-all {
+    width: 100%;
+}
+
+.pendu pre{
+    display: inline-block;
+    border: 5px solid white; 
+    padding: 2%;
+}
+
+.border p {
+    display: inline-block;
+    border: 5px solid white;
+    padding: 10% 20% 10% 20%;
+}
+
+.hangman-block-all, .hangman-block-all button  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    text-align: center;
+}
+
+.button {
+    color: white;
+    text-decoration: none;
+    border: 3px solid white;
+    width: 20%;
+    padding: 2% 2% 2% 2%;
+}
+
+.button a:focus{
+    color: black;
+    background-color: white;
+}
+
+
+#button1{
+    
+    margin-bottom: 1%;
+}
+
+#button3{
+    margin-top: 1%;
+}
+
+.hangman-button a:visited{
+    background-color: white;
+    color: black;
+}
+
+.hangman-DUO {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+input[type=submit] {
+    margin-top: 1%;
+    background-color: black;
+    color: white;
+    padding: 1%;
+    border: 3px solid white;
+    font-family: "Press Start 2P";
+}
+
+input[type=text]{
+    
+    margin-top: 2%;
+    padding: 1% 0% 1% 0%;
+    background-color: black;
+    color: white;
+    width: 20%;
+    border: 3px solid white;
+    font-family: "Press Start 2P";
+}
+
